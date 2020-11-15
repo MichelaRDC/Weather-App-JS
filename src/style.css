@@ -215,6 +215,13 @@ a:hover {
   color: rgb(255,255,255);
 }
 
+#buttonGN{
+  color: #ffffff;
+  background-color: rgba(255,255,255,0) !important;
+  border: none;
+  font-size: 0.9em;
+}
+
 /*FOOTER*/
 
 .footer{
@@ -296,6 +303,7 @@ a:hover {
   .weather-info{
     flex-direction: row;
   }
+
 
   /*FOOTER*/
 

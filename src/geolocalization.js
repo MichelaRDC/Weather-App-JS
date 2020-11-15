@@ -1,14 +1,17 @@
 import $ from 'jquery';
-import weatherBox from './index.js';
-
 const api_key = process.env.API_KEY;
+
+let weatherBox = document.getElementById("box-weather");
+let weatherTitle = document.createElement('h2');
+let imgWeather = document.createElement('img');
+let tempNow = document.createElement('h3');
+let tempMaxToday = document.createElement('h3');
+let tempMinToday = document.createElement('h3');
 
 export default function getCord(){
 
 $(weatherBox).empty();
-
-let weatherTitle = document.createElement('h2');
-weatherTitle.innerHTML = "<h2>Loading Data</h2>";
+weatherBox.innerHTML = "Waiting data";
 
 navigator.geolocation.getCurrentPosition((position) => {
   const lat = position.coords.latitude;
@@ -22,11 +25,10 @@ navigator.geolocation.getCurrentPosition((position) => {
 
   function getCordData(data){
 
-        //        let weatherTitle = document.createElement('h2');
-                weatherTitle.innerHTML = '';
+
+                weatherBox.innerHTML = '';
                 weatherTitle.innerHTML = "<h2>Today's Weather in " + data.name + "</h2>";
 
-                let imgWeather = document.createElement('img');
                 switch(data.weather[0].main){
                   case 'Clouds':
                     imgWeather.setAttribute("src", "../src/img/clouds.png");
@@ -48,20 +50,16 @@ navigator.geolocation.getCurrentPosition((position) => {
                 }
 
                 let tempCur = Math.round(data.main.temp);
-                let tempNow = document.createElement('h3');
                 tempNow.innerHTML = 'Current temperature:<br><b>' + tempCur + '&#176 C</b>' ;
 
                 let tempMax = Math.round(data.main.temp_max);
-                let tempMaxToday = document.createElement('h3');
                 tempMaxToday.innerHTML = 'Max temperature:<br><b>' + tempMax + '&#176 C</b>' ;
 
                 let tempMin = Math.round(data.main.temp_min);
-                let tempMinToday = document.createElement('h3');
                 tempMinToday.innerHTML = 'Min temperature:<br><b>' + tempMin + '&#176 C</b>' ;
 
                 $(weatherBox).append(weatherTitle, imgWeather, tempNow, tempMaxToday, tempMinToday);
 
   }
 });
-
 }
