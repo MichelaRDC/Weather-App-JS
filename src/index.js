@@ -7,6 +7,9 @@ import $ from 'jquery';
 
 //PAGE SETTING
 
+let logoImg = document.getElementById('logo');
+logoImg.setAttribute("src", "../src/img/weather-app.png");
+
 window.addEventListener("load", changeBg);
 
 // GEOLOCALIZATION
