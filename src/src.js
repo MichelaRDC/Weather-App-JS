@@ -12,7 +12,7 @@ export default function getWeatherInfo(){
 
   let cityNsrc = (cityName.value);
 
-  const api_url = `http://api.openweathermap.org/data/2.5/forecast?q=${cityNsrc}&units=metric&appid=${api_key}`;
+  const api_url = `https://api.openweathermap.org/data/2.5/forecast?q=${cityNsrc}&units=metric&appid=${api_key}`;
 
   fetch(api_url)
     .then( function (response){

@@ -16,7 +16,7 @@ navigator.geolocation.getCurrentPosition((position) => {
   console.log(lat);
   console.log(lon);
 
-  var apiWCord = 'http://api.openweathermap.org/data/2.5/forecast?lat=' + lat +'&lon=' + lon + '&units=metric&appid=' + api_key;
+  var apiWCord = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat +'&lon=' + lon + '&units=metric&appid=' + api_key;
 
   $.getJSON(apiWCord, getCordData);
 
