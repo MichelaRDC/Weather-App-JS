@@ -1,15 +1,13 @@
 import './style.css';
 import changeBg from './animation.js';
 import getCord from './geolocalization.js';
-import getWeatherInfo from './search.js';
+import getWeatherInfo from './src.js';
 import Icon from './img/weather-app.png';
 import $ from 'jquery';
 
+//PAGE SETTING
+
 window.addEventListener("load", changeBg);
-
-// API
-
-const api_key = process.env.API_KEY;
 
 // GEOLOCALIZATION
 
