@@ -29,8 +29,9 @@ export default function getWeatherInfo(){
 
       for (let i = 0; i < 8 ; i++) {
         let tempForec = Math.round(data.list[i].main.temp);
-        let dataF = data.list[i].dt_txt;
-        let dataForec = dataF.slice(10,13);
+        // let dataF = data.list[i].dt_txt;
+        // let dataForec = dataF.slice(10,13);
+        let hours = i*3;
         let tempForBox = document.createElement('h4');
         let imgWeather = document.createElement('img');
         switch(data.list[i].weather[0].main){
@@ -59,7 +60,7 @@ export default function getWeatherInfo(){
           if (i === 0){
             tempForBox.innerHTML = '<h4>Now<br><b>' + tempForec + '&#176 C</b></h4>' ;
           } else {
-            tempForBox.innerHTML = '<h4>h ' + dataForec + '<br><b>' + tempForec + '&#176 C</b></h4>' ;
+            tempForBox.innerHTML = '<h4>+ ' + hours + 'h<br><b>' + tempForec + '&#176 C</b></h4>' ;
           }
       }
 
