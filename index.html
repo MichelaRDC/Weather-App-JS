@@ -4,6 +4,52 @@
     <meta charset="utf-8">
     <title>Webpack App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"></head>
-  <body>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <body class="home">
+    <div class='header'>
+      <div class="header-container">
+        <div class='logo'><a href="index.html"><img id="logo" alt="Weather App" height="35px"/></a></div>
+        <div class="search">
+          <div class="search-box">
+          <input class="search-txt" type="text" id="cityName" placeholder="Type City">
+          <button class="search-btn" id="btn-search">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <button class="search-geol" id="btn-geol">
+          <i class="fas fa-map-marker-alt"></i>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!-- Corpo Pagina -->
+    <div class="page">
+    <div class="weather-info" id="box-weather">
+      <h1 id="title-weather">Find out the current weather</h1>
+      <div class="forecast-info" id="box-forecast">
+      </div>
+    </div>
+  </div>
+  </div>
+    <!-- Footer -->
+    <div class='footer'>
+      <div class='footer-item footer-one'>
+        <div class="menu-social">
+            <div class="soc-ico insta"><a href='https://www.instagram.com/radicemichela/?hl=it'><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div class="menu-social">
+            <div class="soc-ico linkedin"><a href='https://www.linkedin.com/in/radice-creative-designer/'><i class="fab fa-linkedin"></i></a></div>
+        </div>
+        <div class="menu-social">
+            <div class="soc-ico site"><a href='https://www.forgetmenot.it'><i class="fas fa-link"></i></a></div>
+        </div>
+      </div>
+      <div class='footer-item footer-two'>
+        <p>Made with <i style="color:#b71540;"class="fas fa-heart"></i> by Michela Radice</p>
+      </div>
+      <div class='footer-item footer-three'>
+        <button id="buttonGN"><i class="far fa-moon"></i></button>
+      </div>
+    </div>
   <script src="bundle.js"></script></body>
 </html>
