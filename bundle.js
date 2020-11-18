@@ -22,8 +22,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_bg_giorno_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/bg-giorno.jpg */ "./src/img/bg-giorno.jpg");
-/* harmony import */ var _img_bg_notte_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/bg-notte.jpg */ "./src/img/bg-notte.jpg");
+/* harmony import */ var _img_bg_giorno_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/bg-giorno.jpg */ "./img/bg-giorno.jpg");
+/* harmony import */ var _img_bg_notte_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/bg-notte.jpg */ "./img/bg-notte.jpg");
 // Imports
 ;
 
@@ -214,9 +214,9 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ "./src/img/bg-giorno.jpg":
+/***/ "./img/bg-giorno.jpg":
 /*!*******************************!*\
-  !*** ./src/img/bg-giorno.jpg ***!
+  !*** ./img/bg-giorno.jpg ***!
   \*******************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -233,9 +233,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/bg-notte.jpg":
+/***/ "./img/bg-notte.jpg":
 /*!******************************!*\
-  !*** ./src/img/bg-notte.jpg ***!
+  !*** ./img/bg-notte.jpg ***!
   \******************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -252,9 +252,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/clear.png":
+/***/ "./img/clear.png":
 /*!***************************!*\
-  !*** ./src/img/clear.png ***!
+  !*** ./img/clear.png ***!
   \***************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -271,9 +271,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/clouds.png":
+/***/ "./img/clouds.png":
 /*!****************************!*\
-  !*** ./src/img/clouds.png ***!
+  !*** ./img/clouds.png ***!
   \****************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -290,9 +290,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/mist.png":
+/***/ "./img/mist.png":
 /*!**************************!*\
-  !*** ./src/img/mist.png ***!
+  !*** ./img/mist.png ***!
   \**************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -309,9 +309,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/rain.png":
+/***/ "./img/rain.png":
 /*!**************************!*\
-  !*** ./src/img/rain.png ***!
+  !*** ./img/rain.png ***!
   \**************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -328,9 +328,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/snow.png":
+/***/ "./img/snow.png":
 /*!**************************!*\
-  !*** ./src/img/snow.png ***!
+  !*** ./img/snow.png ***!
   \**************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -347,9 +347,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/weather-app.png":
+/***/ "./img/weather-app.png":
 /*!*********************************!*\
-  !*** ./src/img/weather-app.png ***!
+  !*** ./img/weather-app.png ***!
   \*********************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -11273,7 +11273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style.css");
 ;
-            
+
 
 var options = {};
 
@@ -11722,14 +11722,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _animation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animation.js */ "./src/animation.js");
 /* harmony import */ var _geolocalization_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./geolocalization.js */ "./src/geolocalization.js");
 /* harmony import */ var _src_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src.js */ "./src/src.js");
-/* harmony import */ var _img_weather_app_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/weather-app.png */ "./src/img/weather-app.png");
-/* harmony import */ var _img_bg_giorno_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/bg-giorno.jpg */ "./src/img/bg-giorno.jpg");
-/* harmony import */ var _img_bg_notte_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/bg-notte.jpg */ "./src/img/bg-notte.jpg");
-/* harmony import */ var _img_clear_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/clear.png */ "./src/img/clear.png");
-/* harmony import */ var _img_clouds_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/clouds.png */ "./src/img/clouds.png");
-/* harmony import */ var _img_mist_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/mist.png */ "./src/img/mist.png");
-/* harmony import */ var _img_rain_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/rain.png */ "./src/img/rain.png");
-/* harmony import */ var _img_snow_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/snow.png */ "./src/img/snow.png");
+/* harmony import */ var _img_weather_app_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/weather-app.png */ "./img/weather-app.png");
+/* harmony import */ var _img_bg_giorno_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/bg-giorno.jpg */ "./img/bg-giorno.jpg");
+/* harmony import */ var _img_bg_notte_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/bg-notte.jpg */ "./img/bg-notte.jpg");
+/* harmony import */ var _img_clear_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/clear.png */ "./img/clear.png");
+/* harmony import */ var _img_clouds_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/clouds.png */ "./img/clouds.png");
+/* harmony import */ var _img_mist_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/mist.png */ "./img/mist.png");
+/* harmony import */ var _img_rain_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/rain.png */ "./img/rain.png");
+/* harmony import */ var _img_snow_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/snow.png */ "./img/snow.png");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_12__);
 ;
@@ -11869,7 +11869,7 @@ function getWeatherInfo(){
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -11882,14 +11882,14 @@ function getWeatherInfo(){
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -11902,7 +11902,7 @@ function getWeatherInfo(){
 /******/ 			return getter;
 /******/ 		};
 /******/ 	})();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -11914,12 +11914,12 @@ function getWeatherInfo(){
 /******/ 			}
 /******/ 		};
 /******/ 	})();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
 /******/ 	})();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -11930,7 +11930,7 @@ function getWeatherInfo(){
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
 /******/ 	})();
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	// startup
 /******/ 	// Load entry module
