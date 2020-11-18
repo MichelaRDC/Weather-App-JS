@@ -195,7 +195,7 @@ a:hover {
 /*sfondo giorno/notte*/
 
 .giorno{
-  background-image: url("./img/bg-giorno.jpg");
+  background-image: url("img/bg-giorno.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
